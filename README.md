@@ -12,7 +12,8 @@ Using Leaflet.loader is very easy.
 Add the css and the javascript in the header of your html page :
     
     <link rel="stylesheet" href="leaflet.loader.css" />
-    
+
+
     <script src="leaflet.loader.js"></script>
 
 Then create the loader using the function :
@@ -20,6 +21,7 @@ Then create the loader using the function :
     var loader = L.control.loader().addTo(map);
     
 To disable the loading screen, simply call the function `hide()` when wanted:
+
     loader.hide();
 
 ## Methods :
